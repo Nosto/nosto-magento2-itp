@@ -119,6 +119,7 @@ class Action implements ObserverInterface
         }
         $cookieMetadata = new PublicCookieMetadata();
         $cookieMetadata->setDuration(3600 * 24 * (365 * 2)); // 2 Years
+        $cookieMetadata->setPath('/');
         try {
             if ($this->storeManager->getStore()->isFrontUrlSecure()) {
                 $cookieMetadata->setSecure(true);
