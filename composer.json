@@ -1,5 +1,5 @@
 {
-  "name": "nosto/module-nostoitp",
+  "name": "nosto/module-nosto-itp",
   "description": "Handle Webkit Intelligent Tracking Prevention",
   "type": "magento2-module",
   "version": "0.0.1-rc1",
