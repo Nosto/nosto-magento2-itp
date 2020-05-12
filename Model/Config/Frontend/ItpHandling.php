@@ -38,7 +38,6 @@ namespace Nosto\Itp\Model\Config\Frontend;
 
 use Magento\Config\Block\System\Config\Form\Field;
 use Magento\Framework\Data\Form\Element\AbstractElement;
-use Magento\Backend\Block\Template\Context;
 
 class ItpHandling extends Field
 {

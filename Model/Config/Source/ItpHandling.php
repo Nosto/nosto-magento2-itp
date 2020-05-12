@@ -37,7 +37,6 @@
 namespace Nosto\Itp\Model\Config\Source;
 
 use Magento\Framework\Phrase;
-use Magento\Backend\Block\Template\Context;
 use Magento\Config\Block\System\Config\Form\Field;
 use Magento\Framework\Data\OptionSourceInterface;
 
