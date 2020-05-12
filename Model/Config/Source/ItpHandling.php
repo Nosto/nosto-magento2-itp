@@ -45,18 +45,6 @@ class ItpHandling extends Field implements OptionSourceInterface
 {
 
     /**
-     * ItpHandling constructor.
-     * @param Context $context
-     * @param array $data
-     */
-    public function __construct(
-        Context $context,
-        array $data = []
-    ) {
-        parent::__construct($context, $data);
-    }
-
-    /**
      * @return array
      */
     public function toOptionArray()

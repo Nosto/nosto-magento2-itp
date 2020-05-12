@@ -42,17 +42,6 @@ use Magento\Backend\Block\Template\Context;
 
 class ItpHandling extends Field
 {
-    /**
-     * ItpHandling constructor.
-     * @param Context $context
-     * @param array $data
-     */
-    public function __construct(
-        Context $context,
-        array $data = []
-    ) {
-        parent::__construct($context, $data);
-    }
 
     /**
      * Render input selector
