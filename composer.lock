@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "771105afb01cbb8f2c2f1ce8f0844f6f",
+    "content-hash": "71c4d778c91be602552a96e44f2ecf6d",
     "packages": [
         {
             "name": "nosto/module-nostotagging",
