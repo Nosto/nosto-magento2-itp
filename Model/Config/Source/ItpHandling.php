@@ -37,24 +37,11 @@
 namespace Nosto\Itp\Model\Config\Source;
 
 use Magento\Framework\Phrase;
-use Magento\Backend\Block\Template\Context;
 use Magento\Config\Block\System\Config\Form\Field;
 use Magento\Framework\Data\OptionSourceInterface;
 
 class ItpHandling extends Field implements OptionSourceInterface
 {
-
-    /**
-     * ItpHandling constructor.
-     * @param Context $context
-     * @param array $data
-     */
-    public function __construct(
-        Context $context,
-        array $data = []
-    ) {
-        parent::__construct($context, $data);
-    }
 
     /**
      * @return array

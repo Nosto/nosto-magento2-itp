@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2019, Nosto Solutions Ltd
+ * Copyright (c) 2020, Nosto Solutions Ltd
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -29,27 +29,47 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @author Nosto Solutions Ltd <contact@nosto.com>
- * @copyright 2019 Nosto Solutions Ltd
+ * @copyright 2020 Nosto Solutions Ltd
  * @license http://opensource.org/licenses/BSD-3-Clause BSD 3-Clause
  *
  */
 
-namespace Nosto\Itp\Model\Config\Frontend;
-
-use Magento\Config\Block\System\Config\Form\Field;
-use Magento\Framework\Data\Form\Element\AbstractElement;
-
-class ItpHandling extends Field
-{
-
-    /**
-     * Render input selector
-     *
-     * @param AbstractElement $element
-     * @return string
-     */
-    protected function _getElementHtml(AbstractElement $element) //@codingStandardsIgnoreLine
-    {
-        return parent::_getElementHtml($element);
-    }
-}
+return [
+    'backward_compatibility_checks' => false,
+    'signature-compatibility' => true,
+    'progress-bar' => true,
+    'simplify_ast' => false,
+    'dead_code_detection' => false,
+    'exclude_file_regex' => '@^vendor/.*/(tests|test|Tests|Test)/@',
+    'directory_list' => [
+        'Helper',
+        'Model',
+        'Observer',
+        'vendor/nosto',
+        'vendor/vlucas',
+        'vendor/phpseclib',
+        'vendor/magento',
+        'vendor/monolog',
+        'vendor/zendframework',
+        'vendor/psr',
+        'vendor/symfony/console',
+        'magento/generated'
+    ],
+    'exclude_file_list' => [
+        'vendor/magento/zendframework1/library/Zend/Validate/Hostname/Biz.php',
+        'vendor/magento/zendframework1/library/Zend/Validate/Hostname/Cn.php',
+        'vendor/magento/zendframework1/library/Zend/Validate/Hostname/Com.php',
+        'vendor/magento/zendframework1/library/Zend/Validate/Hostname/Jp.php',
+    ],
+    'exclude_analysis_directory_list' => [
+        'vendor/',
+        'magento/'
+    ],
+    'suppress_issue_types' => [
+        'PhanParamSignatureMismatch',
+    ],
+    "color_issue_messages_if_supported" => true,
+    'plugins' => [
+      'vendor/drenso/phan-extensions/Plugin/DocComment/InlineVarPlugin.php'
+    ]
+];
