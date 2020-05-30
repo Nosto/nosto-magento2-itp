@@ -70,7 +70,8 @@ class Data extends AbstractHelper
      *
      * @param StoreInterface|null $store the store model or null.
      * @return bool the configuration value
-     */
+	 * @noinspection PhpUnused
+	 */
     public function isItpHandlingEnabled(StoreInterface $store = null)
     {
         return (bool)$this->getStoreConfig(self::XML_PATH_ITP_HANDLING, $store);
