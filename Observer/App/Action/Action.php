@@ -96,8 +96,7 @@ class Action implements ObserverInterface
         CookieManagerInterface $cookieManager,
         StoreManagerInterface $storeManager,
         Logger $logger
-    )
-    {
+    ) {
         $this->response = $response;
         $this->cookieManager = $cookieManager;
         $this->storeManager = $storeManager;

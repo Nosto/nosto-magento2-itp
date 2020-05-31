@@ -60,8 +60,7 @@ class Data extends AbstractHelper
     public function __construct(
         Context $context,
         NostoHelperScope $nostoHelperScope
-    )
-    {
+    ) {
         parent::__construct($context);
         $this->nostoHelperScope = $nostoHelperScope;
     }
