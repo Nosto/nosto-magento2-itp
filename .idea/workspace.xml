@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529f10c2-551d-4572-8155-7cfd96673fc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Helper/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Config/Source/ItpHandling.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Config/Source/ItpHandling.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nosto-magento2-itp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nosto-magento2-itp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pCI" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -244,6 +242,7 @@
       <updated>1590836909697</updated>
       <workItem from="1590836911639" duration="3229000" />
       <workItem from="1590855273674" duration="4080000" />
+      <workItem from="1590923285536" duration="330000" />
     </task>
     <servers />
   </component>
@@ -259,10 +258,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="553" y="369" key="ComposerInitDialogKey/0.0.1440.900@0.0.1440.900" timestamp="1590837251235" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1590870761966">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1590923606806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590870761966" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590923606806" />
     <state x="0" y="298" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1590871136517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

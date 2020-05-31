@@ -48,9 +48,9 @@ class ItpHandling extends Field implements OptionSourceInterface
      */
     public function toOptionArray()
     {
-		return [
-			['value' => '1', 'label' => new Phrase('Enabled')],
-			['value' => '0', 'label' => new Phrase('Disabled')]
-		];
+        return [
+            ['value' => '1', 'label' => new Phrase('Enabled')],
+            ['value' => '0', 'label' => new Phrase('Disabled')]
+        ];
     }
 }
