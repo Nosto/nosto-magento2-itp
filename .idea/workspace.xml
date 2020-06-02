@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529f10c2-551d-4572-8155-7cfd96673fc4" name="Default Changelist" comment="" />
+    <list default="true" id="529f10c2-551d-4572-8155-7cfd96673fc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -266,10 +268,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="553" y="369" key="ComposerInitDialogKey/0.0.1440.900@0.0.1440.900" timestamp="1590837251235" />
-    <state x="229" y="88" key="SettingsEditor" timestamp="1591088274868">
+    <state x="229" y="88" key="SettingsEditor" timestamp="1591088308528">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="88" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591088274868" />
+    <state x="229" y="88" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591088308528" />
     <state x="0" y="298" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1590871136517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
