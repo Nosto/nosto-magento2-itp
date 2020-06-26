@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpUnused */
 /**
  * Copyright (c) 2020, Nosto Solutions Ltd
  * All rights reserved.
@@ -36,7 +36,6 @@
 
 namespace Nosto\Itp\Observer\App\Action;
 
-use Magento\Framework\App\Response\Http as HttpResponse;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Exception\InputException;
@@ -72,9 +71,6 @@ class Action implements ObserverInterface
      */
     const HTTP_COOKIE_NAME_SET = '2c.cId.http';
 
-    /** @var HttpResponse $response */
-    private $response;
-
     /** @var CookieManagerInterface */
     private $cookieManager;
 
@@ -86,18 +82,15 @@ class Action implements ObserverInterface
 
     /**
      * Action constructor.
-     * @param HttpResponse $response
      * @param CookieManagerInterface $cookieManager
      * @param StoreManagerInterface $storeManager
      * @param Logger $logger
      */
     public function __construct(
-        HttpResponse $response,
         CookieManagerInterface $cookieManager,
         StoreManagerInterface $storeManager,
         Logger $logger
     ) {
-        $this->response = $response;
         $this->cookieManager = $cookieManager;
         $this->storeManager = $storeManager;
         $this->logger = $logger;
