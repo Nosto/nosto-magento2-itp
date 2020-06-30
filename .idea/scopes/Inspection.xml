@@ -1,3 +1,3 @@
 <component name="DependencyValidationManager">
-  <scope name="Inspection" pattern="file[nosto-magento2-itp]:etc//*||file[nosto-magento2-itp]:Helper//*||file[nosto-magento2-itp]:Observer//*||file[nosto-magento2-itp]:Model//*" />
+  <scope name="Inspection" pattern="(file[nosto-magento2-itp]:etc//*||file[nosto-magento2-itp]:Helper//*||file[nosto-magento2-itp]:Observer//*||file[nosto-magento2-itp]:Model//*)&amp;&amp;!file[nosto-magento2-itp]:vendor/bin//*" />
 </component>

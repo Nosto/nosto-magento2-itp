@@ -8,7 +8,6 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/magento" />
       <excludeFolder url="file://$MODULE_DIR$/magento/vendor/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/colinmollenhour/credis" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/colinmollenhour/php-redis-session-abstract" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
