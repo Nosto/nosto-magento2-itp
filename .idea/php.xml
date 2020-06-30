@@ -123,26 +123,12 @@
       <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
       <path value="$PROJECT_DIR$/vendor/magento/framework" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-stdlib" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mail" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-form" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-uri" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-loader" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-hydrator" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-crypt" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-inputfilter" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-math" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-http" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-console" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mime" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-psr7bridge" />
       <path value="$PROJECT_DIR$/vendor/tedivm/jshrink" />
       <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
       <path value="$PROJECT_DIR$/vendor/phing/phing" />
@@ -154,6 +140,23 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-console" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-uri" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-loader" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-http" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-mvc" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-psr7bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-mime" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-validator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-inputfilter" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-form" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-filter" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-mail" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
