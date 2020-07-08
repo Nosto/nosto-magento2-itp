@@ -41,7 +41,7 @@ use Magento\Framework\App\Helper\Context;
 use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\Store;
 use Nosto\Tagging\Helper\Scope as NostoHelperScope;
-
+/** @noinspection PhpUnused */
 class Data extends AbstractHelper
 {
     /** @var NostoHelperScope */
@@ -56,7 +56,7 @@ class Data extends AbstractHelper
      * Data constructor.
      * @param Context $context
      * @param NostoHelperScope $nostoHelperScope
-     * @noinspection UnusedDeclaration
+     * @noinspection PhpUnused
      */
     public function __construct(
         Context $context,
