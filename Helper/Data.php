@@ -41,6 +41,7 @@ use Magento\Framework\App\Helper\Context;
 use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\Store;
 use Nosto\Tagging\Helper\Scope as NostoHelperScope;
+
 /** @noinspection PhpUnused */
 class Data extends AbstractHelper
 {
