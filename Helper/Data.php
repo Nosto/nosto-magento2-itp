@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2019, Nosto Solutions Ltd
+ * Copyright (c) 2020, Nosto Solutions Ltd
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * @author Nosto Solutions Ltd <contact@nosto.com>
- * @copyright 2019 Nosto Solutions Ltd
+ * @copyright 2020 Nosto Solutions Ltd
  * @license http://opensource.org/licenses/BSD-3-Clause BSD 3-Clause
  *
  */
@@ -42,6 +42,7 @@ use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\Store;
 use Nosto\Tagging\Helper\Scope as NostoHelperScope;
 
+/** @noinspection PhpUnused */
 class Data extends AbstractHelper
 {
     /** @var NostoHelperScope */
@@ -56,6 +57,7 @@ class Data extends AbstractHelper
      * Data constructor.
      * @param Context $context
      * @param NostoHelperScope $nostoHelperScope
+     * @noinspection PhpUnused
      */
     public function __construct(
         Context $context,
@@ -70,6 +72,7 @@ class Data extends AbstractHelper
      *
      * @param StoreInterface|null $store the store model or null.
      * @return bool the configuration value
+     * @noinspection PhpUnused
      */
     public function isItpHandlingEnabled(StoreInterface $store = null)
     {
