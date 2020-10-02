@@ -42,6 +42,7 @@ use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\Store;
 use Nosto\Tagging\Helper\Scope as NostoHelperScope;
 
+/** @noinspection PhpUnused */
 class Data extends AbstractHelper
 {
     /** @var NostoHelperScope */
@@ -56,6 +57,7 @@ class Data extends AbstractHelper
      * Data constructor.
      * @param Context $context
      * @param NostoHelperScope $nostoHelperScope
+     * @noinspection PhpUnused
      */
     public function __construct(
         Context $context,
@@ -70,6 +72,7 @@ class Data extends AbstractHelper
      *
      * @param StoreInterface|null $store the store model or null.
      * @return bool the configuration value
+     * @noinspection PhpUnused
      */
     public function isItpHandlingEnabled(StoreInterface $store = null)
     {

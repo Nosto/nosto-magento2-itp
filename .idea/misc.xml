@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpEntryPointsManager">
+    <entry_point>
+      <entry_point TYPE="phpMethod" FQNAME="\Nosto\Itp\Helper\Data __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Nosto\Itp\Helper\Data" />
+    </entry_point>
+    <pattern value="\Nosto\Itp\Helper\Data" member="__construct" />
+    <pattern value="\Nosto\Itp\Helper\Data" />
+  </component>
+</project>

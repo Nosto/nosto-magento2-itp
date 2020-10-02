@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpUnused */
 /**
  * Copyright (c) 2020, Nosto Solutions Ltd
  * All rights reserved.
@@ -48,10 +48,9 @@ class ItpHandling extends Field implements OptionSourceInterface
      */
     public function toOptionArray()
     {
-        $options = [
+        return [
             ['value' => '1', 'label' => new Phrase('Enabled')],
             ['value' => '0', 'label' => new Phrase('Disabled')]
         ];
-        return $options;
     }
 }
