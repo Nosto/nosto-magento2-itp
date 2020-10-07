@@ -45,5 +45,8 @@
   },
   "config": {
     "process-timeout":3600
+  },
+  "scripts": {
+    "ci:inspect": "./inspect.sh"
   }
 }
