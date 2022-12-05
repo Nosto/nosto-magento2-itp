@@ -46,7 +46,7 @@ use Nosto\Tagging\Helper\Scope as NostoHelperScope;
 class Data extends AbstractHelper
 {
     /** @var NostoHelperScope */
-    private $nostoHelperScope;
+    private NostoHelperScope $nostoHelperScope;
 
     /**
      * Path to the configuration object that stores ITP handling
