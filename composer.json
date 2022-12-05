@@ -2,7 +2,7 @@
   "name": "nosto/module-nosto-itp",
   "description": "Handle Webkit Intelligent Tracking Prevention",
   "type": "magento2-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "require-dev": {
     "phing/phing": "2.*",
     "magento-ecg/coding-standard": "3.*",
