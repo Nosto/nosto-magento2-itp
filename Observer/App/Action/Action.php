@@ -72,13 +72,13 @@ class Action implements ObserverInterface
     const HTTP_COOKIE_NAME_SET = '2c.cId.http';
 
     /** @var CookieManagerInterface */
-    private $cookieManager;
+    private CookieManagerInterface $cookieManager;
 
     /** @var StoreManagerInterface */
-    private $storeManager;
+    private StoreManagerInterface $storeManager;
 
     /** @var Logger */
-    private $logger;
+    private Logger $logger;
 
     /**
      * Action constructor.
